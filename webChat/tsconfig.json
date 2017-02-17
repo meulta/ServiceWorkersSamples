@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "sourceMap": false,
+        "noImplicitAny": false,
+        "noImplicitThis": true,
+        "strictNullChecks": false,
+        "jsx": "preserve"
+    }
+}
