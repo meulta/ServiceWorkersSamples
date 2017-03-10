@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceRoot}\\app.js",
+            "env": {
+                "GCM_API_KEY": "AAAAiaIE-sc:APA91bGxgpXU9H_L9SmqgqlP3cv73n-3qvPUIhpzpU5LMejx5Av0KEPWgpMw0KTQhAtMvjj2XN-SlMNj__gBVTEKyHcpq-Xh2TE2dgB-0kngsXMRMHZMtojcnuYnTjVwAiKYCWc-ndVj"
+            }
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Attach to Process",
+            "address": "localhost",
+            "port": 5858
+        }
+    ]
+}
