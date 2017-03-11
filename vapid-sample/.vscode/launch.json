@@ -10,7 +10,9 @@
             "name": "Launch Program",
             "program": "${workspaceRoot}\\app.js",
             "env": {
-                "GCM_API_KEY": "AAAAiaIE-sc:APA91bGxgpXU9H_L9SmqgqlP3cv73n-3qvPUIhpzpU5LMejx5Av0KEPWgpMw0KTQhAtMvjj2XN-SlMNj__gBVTEKyHcpq-Xh2TE2dgB-0kngsXMRMHZMtojcnuYnTjVwAiKYCWc-ndVj"
+                "GCM_API_KEY": "AAAAiaIE-sc:APA91bGxgpXU9H_L9SmqgqlP3cv73n-3qvPUIhpzpU5LMejx5Av0KEPWgpMw0KTQhAtMvjj2XN-SlMNj__gBVTEKyHcpq-Xh2TE2dgB-0kngsXMRMHZMtojcnuYnTjVwAiKYCWc-ndVj",
+                "MICROSOFT_APP_ID": "e0457a34-ddd1-4892-8ff2-fc786a8ccb14",
+                "MICROSOFT_APP_PASSWORD": "ckA7u3gpuCsGYBJy5ibNOOp"
             }
         },
         {

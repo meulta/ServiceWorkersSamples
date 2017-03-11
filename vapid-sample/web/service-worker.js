@@ -1,7 +1,7 @@
 self.addEventListener('push', function(event) {
-  var payload = event.data ? event.data.text() : 'no payload';
+  var payload = event.data ? event.data.text() : 'No message...';
   event.waitUntil(
-    self.registration.showNotification('ServiceWorker Cookbook', {
+    self.registration.showNotification('Chat bot!', {
       body: payload,
     })
   );
